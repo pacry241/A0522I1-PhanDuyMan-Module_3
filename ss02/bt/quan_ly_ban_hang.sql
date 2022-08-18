@@ -7,7 +7,7 @@ use QuanLyBanHang;
 create table Customer(
 cID int primary key not null auto_increment,
 cName varchar(50),
-cAge int not null );
+cAge tinyint not null );
 
 create table `Order`(
 oID int primary key not null auto_increment ,

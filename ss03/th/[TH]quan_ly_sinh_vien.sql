@@ -1,5 +1,6 @@
 create database `quanlysinhvien`;
 use `quanlysinhvien`;
+-- drop database quanlysinhvien;
 create table `class`(
 ClassID int auto_increment not null primary key,
 ClassName varchar(60) not null,
