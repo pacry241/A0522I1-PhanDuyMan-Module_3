@@ -38,7 +38,7 @@ ORDER BY COUNT(kh.ma_khach_hang);
 
 -- Câu 5
 
-select kh.ma_khach_hang, kh.ho_ten, lk.ten_loai_khach, hd.ma_hop_dong, dv.ten_dich_vu, hd.ngay_lam_hop_dong, hd.ngay_ket_thuc, sum(ifnull((dvdk.gia * hdct.so_luong),0))+dv.chi_phi_thue  tong_tien
+select kh.ma_khach_hang, kh.ho_ten, lk.ten_loai_khach, hd.ma_hop_dong, dv.ten_dich_vu, hd.ngay_lam_hop_dong, hd.ngay_ket_thuc, ifnull(sum(dvdk.gia * hdct.so_luong),0)+dv.chi_phi_thue  tong_tien
 from khach_hang kh
 left join loai_khach lk on kh.ma_loai_khach=lk.ma_loai_khach
 left join hop_dong hd on hd.ma_khach_hang=kh.ma_khach_hang
@@ -172,16 +172,87 @@ NOT EXISTS (
 -- ten_loai_khach từ Platinum lên Diamond, 
 -- chỉ cập nhật những khách hàng đã từng đặt phòng
 --  với Tổng Tiền thanh toán trong năm 2021 là lớn hơn 10.000.000 VNĐ.
-update khach_hang kh
-set kh.ma_loai_khach = 1
+update khach_hang 
+set ma_loai_khach = 1
 where
- kh.ma_khach_hang not in (
- select hd.ma_khach_hang from hop_dong hd
- where
- hd.tien_dat_coc <= 10000000)
+ ma_khach_hang in (
+select t.ma_khach_hang
+ from (
+select kh.ma_khach_hang, kh.ho_ten, lk.ten_loai_khach, hd.ma_hop_dong, dv.ten_dich_vu, hd.ngay_lam_hop_dong, hd.ngay_ket_thuc, ifnull(sum(dvdk.gia * hdct.so_luong),0)+tmp.gia_dv  tong_tien
+from khach_hang kh
+left JOIN loai_khach lk USING (ma_loai_khach)
+left join hop_dong hd USING (ma_khach_hang)
+left join dich_vu dv USING (ma_dich_vu)
+left JOIN hop_dong_chi_tiet hdct USING (ma_hop_dong)
+left join dich_vu_di_kem dvdk USING (ma_dich_vu_di_kem)
+left join (
+SELECT
+            kh1.ma_khach_hang as ma_khach_hang,
+            sum(dv.chi_phi_thue) as gia_dv
+        from
+            khach_hang kh1
+            join hop_dong hd USING (ma_khach_hang)
+            join dich_vu dv USING (ma_dich_vu)
+        GROUP by
+            kh1.ma_khach_hang
+    ) tmp USING (ma_khach_hang)
+    where ten_loai_khach = 'Platinium' and year(hd.ngay_lam_hop_dong)=2021
+	GROUP by
+	kh.ma_khach_hang
+	HAVING
+	tong_tien > 1000000
+) as t
+);
+
+-- Câu 18.	Xóa những khách hàng có hợp đồng trước năm 2021 (chú ý ràng buộc giữa các bảng).
+
+delete from khach_hang kh
+where kh.ma_khach_hang in (
+select ma_khach_hang from hop_dong hd
+where year(hd.ngay_lam_hop_dong)<2021);
+
+-- Câu 19.	Cập nhật giá cho các dịch vụ đi kèm được sử dụng trên 10 lần trong năm 2020 lên gấp đôi.
+update dich_vu_di_kem
+set gia = gia*2
+where ma_dich_vu_di_kem in (select ma_dich_vu_di_kem from (select dvdk.ma_dich_vu_di_kem
+from hop_dong_chi_tiet hdct 
+join dich_vu_di_kem dvdk on hdct.ma_dich_vu_di_kem = dvdk.ma_dich_vu_di_kem
+join hop_dong hd on hdct.ma_hop_dong = hd.ma_hop_dong
+where year(hd.ngay_lam_hop_dong) = 2020
+group by dvdk.ma_dich_vu_di_kem
+having sum(hdct.so_luong)>10) as tab);
 
 
+-- Câu 20.	Hiển thị thông tin của tất cả các nhân viên và khách hàng có trong hệ thống,
+--  thông tin hiển thị bao gồm 
+--  id (ma_nhan_vien, ma_khach_hang), 
+--  ho_ten, email, so_dien_thoai, 
+--  ngay_sinh, dia_chi.
+select ma_nhan_vien, ho_ten, email, so_dien_thoai, ngay_sinh, dia_chi from nhan_vien
+union all
+select ma_khach_hang, ho_ten, email, so_dien_thoai, ngay_sinh, dia_chi from khach_hang
+;
 
+-- Câu 21.	Tạo khung nhìn có tên là v_nhan_vien để lấy được thông tin của tất cả các nhân viên
+--  có địa chỉ là “Hải Châu” và đã từng lập hợp đồng cho một hoặc nhiều khách hàng bất kì với ngày lập hợp đồng là “12/12/2019”.
+create view v_nhan_vien as 
+select ma_nhan_vien, ho_ten, dia_chi, so_dien_thoai
+from nhan_vien
+JOIN hop_dong USING(ma_nhan_vien)
+WHERE dia_chi like '%Đà Nẵng%' and year(ngay_lam_hop_dong) = 2021;
 
+-- Câu 22.	Thông qua khung nhìn v_nhan_vien thực hiện cập nhật địa chỉ thành “Liên Chiểu” đối với tất cả các nhân viên được nhìn thấy bởi khung nhìn này.
+update v_nhan_vien set dia_chi = 'Liên Chiểu';
 
+-- Câu 23.	Tạo Stored Procedure sp_xoa_khach_hang dùng để xóa thông tin của một khách hàng nào đó với ma_khach_hang được truyền vào như là 1 tham số của sp_xoa_khach_hang.
+DELIMITER //
+CREATE PROCEDURE sp_xoa_khach_hang(p_ma_khach_hang int)
+BEGIN
+delete from khach_hang WHERE ma_khach_hang = p_ma_khach_hang;
+END //
+ DELIMITER ;
+
+-- Câu 24.	Tạo Stored Procedure sp_them_moi_hop_dong dùng để thêm mới vào bảng hop_dong 
+-- với yêu cầu sp_them_moi_hop_dong phải thực hiện kiểm tra tính hợp lệ của dữ liệu bổ sung, 
+-- với nguyên tắc không được trùng khóa chính và đảm bảo toàn vẹn tham chiếu đến các bảng liên quan.
 

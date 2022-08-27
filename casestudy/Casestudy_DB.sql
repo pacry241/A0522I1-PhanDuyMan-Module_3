@@ -1,5 +1,5 @@
 create database casestudy;
-
+-- drop database casestudy;
 use casestudy;
 
 CREATE TABLE vi_tri (
