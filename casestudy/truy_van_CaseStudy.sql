@@ -116,4 +116,72 @@ group by hd.ma_hop_dong, nv.ho_ten, kh.ho_ten, kh.so_dien_thoai, dv.ten_dich_vu;
 -- Câu 13.	Hiển thị thông tin các Dịch vụ đi kèm được sử dụng nhiều nhất bởi các Khách hàng đã đặt phòng.
 --  (Lưu ý là có thể có nhiều dịch vụ có số lần sử dụng nhiều như nhau).
 
-select 
+select dvdk.ma_dich_vu_di_kem, dvdk.ten_dich_vu_di_kem, sum(hdct.so_luong) as so_luong
+from dich_vu_di_kem dvdk
+left join hop_dong_chi_tiet hdct using(ma_dich_vu_di_kem)
+left join hop_dong using(ma_hop_dong)
+group by dvdk.ten_dich_vu_di_kem
+having so_luong >=all(
+select sum(so_luong)
+from hop_dong_chi_tiet
+group by so_luong
+);
+
+-- Câu 14.	Hiển thị thông tin tất cả các Dịch vụ đi kèm chỉ mới được sử dụng một lần duy nhất. 
+-- Thông tin hiển thị bao gồm ma_hop_dong, ten_loai_dich_vu, ten_dich_vu_di_kem, 
+-- so_lan_su_dung (được tính dựa trên việc count các ma_dich_vu_di_kem).
+
+select ma_hop_dong, ten_loai_dich_vu, ten_dich_vu_di_kem, count(ma_dich_vu_di_kem) as so_lan_dung
+from dich_vu_di_kem
+left join hop_dong_chi_tiet using(ma_dich_vu_di_kem)
+left join hop_dong using (ma_hop_dong)
+left join dich_vu using(ma_dich_vu)
+left join loai_dich_vu using(ma_loai_dich_vu)
+group by ten_dich_vu_di_kem
+having so_lan_dung =1
+order by ma_hop_dong ;
+
+-- 15.	Hiển thi thông tin của tất cả nhân viên bao gồm ma_nhan_vien,
+--  ho_ten, ten_trinh_do, ten_bo_phan, so_dien_thoai, dia_chi 
+--  mới chỉ lập được tối đa 3 hợp đồng từ năm 2020 đến 2021.
+
+select nv.ma_nhan_vien,nv.ho_ten, td.ten_trinh_do, bp.ten_bo_phan, nv.so_dien_thoai, nv.dia_chi, count(hd.ma_nhan_vien) tong_so_hop_dong
+from hop_dong hd
+left join nhan_vien nv using(ma_nhan_vien)
+left join trinh_do td using(ma_trinh_do)
+left join bo_phan bp using(ma_bo_phan)
+where year(hd.ngay_lam_hop_dong) between 2020 and 2021
+group by hd.ma_nhan_vien
+having count(hd.ma_nhan_vien) <=3
+order by hd.ma_nhan_vien;
+
+-- Câu 16.	Xóa những Nhân viên chưa từng lập được hợp đồng nào từ năm 2019 đến năm 2021.
+delete from nhan_vien nv
+where 
+NOT EXISTS (
+        select
+            *
+        from
+            hop_dong
+        WHERE
+            ma_nhan_vien = nv.ma_nhan_vien
+            and YEAR(ngay_lam_hop_dong) BETWEEN 2019
+            and 2021
+    );
+-- 17.	Cập nhật thông tin những khách hàng có 
+-- ten_loai_khach từ Platinum lên Diamond, 
+-- chỉ cập nhật những khách hàng đã từng đặt phòng
+--  với Tổng Tiền thanh toán trong năm 2021 là lớn hơn 10.000.000 VNĐ.
+update khach_hang kh
+set kh.ma_loai_khach = 1
+where
+ kh.ma_khach_hang not in (
+ select hd.ma_khach_hang from hop_dong hd
+ where
+ hd.tien_dat_coc <= 10000000)
+
+
+
+
+
+
