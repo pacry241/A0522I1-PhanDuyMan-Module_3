@@ -1,0 +1,35 @@
+a:link{
+    color: blue;
+    text-decoration: none;
+}
+a:visited{
+    color: yellowgreen;
+    text-decoration: none ;
+}
+a:hover{
+    color: coral;
+    text-decoration: none;
+}
+a:active{
+    color: white;
+    text-decoration: none;
+}
+ li a{
+    font-family: Arial;
+    font-size: 15px;
+}
+p{
+    font-size: 17px;
+    font-family: Arial;
+}
+.imageChange{
+    max-width: 500px;
+    height: auto;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
