@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        header {
+            margin-top: -10px;
+            margin-left: -10px;
+            margin-right: -10px;
+            background-color: #000000;
+            border: 1px solid #CDCDCD;
+            color: gray;
+        }
+        footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #111;
+            height: auto;
+            width: auto;
+            padding-top: 40px;
+            color: #fff;
+            font-size: 15px;
+        }
+        header ul {
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        header ul li:first-child {
+            background-color: gray;
+            padding: 20px;
+            margin-top: -20px;
+            margin-bottom: -20px;
+            color: white;
+        }
+        .sidebar {
+            width: 25%;
+            padding: 10px;
+            background-color: #f1f1f1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .sidebar h2 {
+            border: 1px solid black;
+            padding: 30px 110px;
+        }
+        .center {
+            width: 50% ; padding: 10px
+        }
+        .flex-d {
+            display: flex;
+            margin-bottom: 10px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+        }
+
+        @media screen and (max-width: 992px) {
+            .sidebar h2 {
+                padding: 50px;
+            }
+
+        }
+
+        @media screen and (max-width: 600px) {
+
+            header div h3 {
+                margin-left: 0;
+            }
+            .sidebar h2 {
+                padding: 30px;
+            }
+            header {
+                flex-direction: column;
+                display: flex;
+
+            }
+            .flex-d, .header, header ul {
+                display: block;
+            }
+
+        }
+
+
+    </style>
+</head>
+<body>
+<header>
+    <div class="header" >
+        <h2 style="margin-left: 20px">LOGO</h2>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Projects</li>
+            <li>Contact</li>
+        </ul>
+        <h3 style="margin-left: 60%">Login</h3>
+    </div>
+
+</header>
+
+<div class="flex-d" >
+    <div class="sidebar">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </div>
+    <div class="center">
+        <h1>Welcome</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in porta lorem. Morbi s condimentum est nibh, et consectetur tortor feugiat at.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in porta lorem. Morbi condimentum est nibh, et consectetur tortor feugiat at.</p>
+        <hr>
+        <h1>Welcome</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in porta lorem. Morbi s condimentum est nibh, et consectetur tortor feugiat at.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in porta lorem. Morbi condimentum est nibh, et consectetur tortor feugiat at.</p>
+        <hr>
+        <h1>Welcome</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in porta lorem. Morbi s condimentum est nibh, et consectetur tortor feugiat at.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in porta lorem. Morbi condimentum est nibh, et consectetur tortor feugiat at.</p>
+    </div>
+    <div class="sidebar">
+        <h2>ADS</h2>
+        <h2>ADS</h2>
+    </div>
+</div>
+
+<footer>
+    <p>Footer Test</p>
+</footer>
+</body>
+</html>
