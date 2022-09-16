@@ -24,7 +24,7 @@
     </tr>
     <c:forEach var="customer" items="${CustomerList}" varStatus="item" >
         <tr>
-            <td>${customer.getName()}</td>
+            <td>${customer.name}</td>
             <td>${customer.getDateOfBirth()}</td>
             <td>${customer.getAddress()}</td>
             <td><img width="100" src="${customer.getImg()}" /></td>

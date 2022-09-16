@@ -9,7 +9,7 @@ import java.util.List;
 
 @WebServlet(name = "Customer_Servlet", urlPatterns = "/customer")
 public class Customer_Servlet extends HttpServlet {
-    public static List<customer> list = new LinkedList<>();
+    private static List<customer> list = new LinkedList<>();
     static {
         list.add(new customer("Mai Văn Hoa","1983-08-20","Hà Nội","https://khoinguonsangtao.vn/wp-content/uploads/2022/05/avatar-dep-chat-nu.jpg"));
         list.add(new customer("Nguyễn Văn Nam","1983-08-21","Bắc Giang","https://imgt.taimienphi.vn/cf/Images/huy/2020/3/19/anh-dai-dien-dep-cho-nam-2.jpg"));
