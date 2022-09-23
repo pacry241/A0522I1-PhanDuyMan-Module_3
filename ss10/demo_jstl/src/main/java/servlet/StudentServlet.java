@@ -29,6 +29,6 @@ public class StudentServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // chuyển dữ liệu
         request.setAttribute("studentList",studentList);
-        request.getRequestDispatcher("view/student/list.jsp").forward(request,response);
+        request.getRequestDispatcher("/view/student/list.jsp").forward(request,response);
     }
 }
