@@ -65,6 +65,9 @@ public class UserServlet extends HttpServlet {
                 case "search":
                     showFormSearch(request,response);
                     break;
+                case "sortByName":
+                    showAfterSort(request,response);
+                    break;
                 default:
                     listUser(request, response);
                     break;
@@ -144,5 +147,9 @@ public class UserServlet extends HttpServlet {
         request.setAttribute("listUser", listUser);
         RequestDispatcher dispatcher = request.getRequestDispatcher("user/list.jsp");
         dispatcher.forward(request, response);
+    }
+    private void showAfterSort(HttpServletRequest request, HttpServletResponse response) throws SQLException, IOException, ServletException{
+        request.setAttribute("listUser",userDAO.sortByName());
+        request.getRequestDispatcher("/user/list.jsp").forward(request,response);
     }
 }

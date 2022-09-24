@@ -23,6 +23,7 @@ public class UserDAO implements IUserDAO{
     private static final String DELETE_USERS_SQL = "delete from users where id = ?;";
     private static final String UPDATE_USERS_SQL = "update users set name = ?,email= ?, country =? where id = ?;";
     private static final String SELECT_USER_BY_COUNTRY = "select id,name,email,country from users where country like ?";
+    private static final String SORT_BY_NAME = "select * from users order by name";
 
     public UserDAO() {
     }
@@ -162,5 +163,28 @@ public class UserDAO implements IUserDAO{
             printSQLException(e);
         }
         return users;
+    }
+
+    @Override
+    public List<User> sortByName() {
+        List<User> listSort = new ArrayList<>();
+        try (
+                Connection connection = getConnection();
+                PreparedStatement preparedStatement = connection.prepareStatement(SORT_BY_NAME);
+                )
+        {
+            ResultSet rs = preparedStatement.executeQuery();
+            while (rs.next()){
+                int id = rs.getInt("id");
+                String name = rs.getString("name");
+                String email = rs.getString("email");
+                String country = rs.getString("country");
+                listSort.add(new User(id,name,email,country));
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return listSort;
     }
 }
