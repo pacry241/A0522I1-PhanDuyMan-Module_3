@@ -1,24 +1,28 @@
 package mvc.bean;
 
-import java.util.Date;
-
 public class Product {
     private String id;
     private String name;
     private Double price;
-    private Date dateRelease;
+    private String color;
     private int quantity;
+    private String description;
+//    private String category;
 
     public Product() {
     }
 
-    public Product(String id, String name, Double price, Date dateRelease, int quantity) {
+
+
+    public Product(String id, String name, Double price,  int quantity,String color, String description) {
         this.id = id;
         this.name = name;
         this.price = price;
-        this.dateRelease = dateRelease;
+        this.color = color;
         this.quantity = quantity;
+        this.description = description;
     }
+
 
     public String getId() {
         return id;
@@ -44,12 +48,12 @@ public class Product {
         this.price = price;
     }
 
-    public Date getDateRelease() {
-        return dateRelease;
+    public String getColor() {
+        return color;
     }
 
-    public void setDateRelease(Date dateRelease) {
-        this.dateRelease = dateRelease;
+    public void setColor(String color) {
+        this.color = color;
     }
 
     public int getQuantity() {
@@ -59,4 +63,13 @@ public class Product {
     public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
 }

@@ -11,7 +11,9 @@
 <jsp:include page="../views/layout/header.jsp"></jsp:include>
 </head>
 <body>
+
 <jsp:include page="/WEB-INF/views/layout/navbar.jsp" />
+<div class="container-fluid">
     <div class="row">
         <!-- Cột trái -->
         <div class="col-sm-4">
@@ -37,12 +39,12 @@
                                     <h2>
                                         Add new product
                                     </h2>
-                                    <a href="/product">Return List</a>
+                                    <a href="/Furuma">Return List</a>
                                     <c:if test="${error != null}">
                                         <h2 style="color: red">${error}</h2>
                                     </c:if>
                                     <div class="body">
-                                        <form action="/product" method="post">
+                                        <form action="/Furuma" method="post">
                                             <label for="id">ID: <span style="color: red;"> *</span></label>
                                             <div class="form-group">
                                                 <div class="form-line">
@@ -99,6 +101,7 @@
 
     </div>
 </div>
-</div>
+
+<jsp:include page="../views/layout/footer.jsp"></jsp:include>
 </body>
 </html>

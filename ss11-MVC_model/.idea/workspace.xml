@@ -2,392 +2,88 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc447576-73a7-4be4-b778-b32679ec1eaa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ss05/bt/View, Index, Store Procedure.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss05/demo/demo_22-08.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss05/th/Chi_muc_trong_MySQL.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss05/th/Store Procedure.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss05/th/Truyen_tham_so_vao_Store_Procedure.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss05/th/View.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss05/th/mysqlsampledatabase.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss06/bt/cach_nhung_css/Nhung_css.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss06/bt/cach_nhung_css/Nhung_css.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss06/bt/dinh_dang_css/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss06/bt/doc_truyen/doc_truyen.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss06/bt/doc_truyen/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss06/th/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss07/bt/facebook/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss07/bt/layout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss07/bt/layout_RWD.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss07/bt/web_hoat_hinh/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss07/th/box_model.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss07/th/menu_doc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss07/th/menu_ngang.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss07/th/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss07/th/styles_2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss08/bt/Landing_page/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss08/bt/gallery_bootstrap/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss08/th/bootstrap.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss08/th/bootstrap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss08/th/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/.gradle/6.1/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/.gradle/6.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/build/classes/java/main/server_time/server_time.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/build/libs/server_time-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/build/tmp/war/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/src/main/java/server_time/server_time.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/ server_time/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/.gradle/6.1/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/.gradle/6.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/build/classes/java/main/displayDiscountServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/build/libs/Discount_Calculator-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/build/tmp/war/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/src/main/java/displayDiscountServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/Discount_Calculator/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/.gradle/6.1/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/.gradle/6.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/build/classes/java/main/ConverterServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/build/libs/java-web-currency-converter-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/build/tmp/war/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/src/main/java/ConverterServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/java-web-currency-converter/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/.gradle/6.1/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/.gradle/6.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/build/classes/java/main/TranslationServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/build/libs/simple_dictionary-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/build/tmp/war/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/src/main/java/TranslationServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_dictionary/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/.gradle/6.1/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/.gradle/6.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/build/classes/java/main/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/build/libs/simple_login-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/build/tmp/war/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/src/main/java/LoginServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss09/simple_login/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/.gradle/6.1/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/.gradle/6.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/build/classes/java/main/Servlet/CalculatorServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/build/classes/java/main/model/Calculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/build/libs/Calculator-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/build/tmp/war/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/src/main/java/Servlet/CalculatorServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/src/main/java/model/Calculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/src/main/webapp/calculator/Calculator.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Calculator/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/.gradle/6.1/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/.gradle/6.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/build/classes/java/main/Customer_Servlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/build/classes/java/main/customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/build/libs/Customer-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/build/tmp/war/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/src/main/java/Customer_Servlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/src/main/java/customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/bt-Customer/Customer/src/main/webapp/view/list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/.gradle/6.1/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/.gradle/6.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/build/classes/java/main/model/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/build/classes/java/main/servlet/StudentServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/build/libs/demo_jstl-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/build/tmp/war/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/src/main/java/model/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/src/main/java/servlet/StudentServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/demo_jstl/src/main/webapp/view/student/list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-currency-converter-jsp/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-currency-converter-jsp/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-currency-converter-jsp/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-currency-converter-jsp/.gradle/6.1/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-currency-converter-jsp/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-currency-converter-jsp/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-currency-converter-jsp/.gradle/6.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-currency-converter-jsp/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-currency-converter-jsp/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-currency-converter-jsp/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-currency-converter-jsp/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-currency-converter-jsp/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-currency-converter-jsp/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-currency-converter-jsp/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-currency-converter-jsp/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-currency-converter-jsp/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-currency-converter-jsp/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-currency-converter-jsp/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-currency-converter-jsp/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-currency-converter-jsp/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-currency-converter-jsp/build/libs/currency-converter-jsp-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-currency-converter-jsp/build/tmp/war/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-currency-converter-jsp/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-currency-converter-jsp/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-currency-converter-jsp/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-currency-converter-jsp/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-currency-converter-jsp/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-currency-converter-jsp/src/main/webapp/converter.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-currency-converter-jsp/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-simple-dictionary-jsp/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-simple-dictionary-jsp/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-simple-dictionary-jsp/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-simple-dictionary-jsp/.gradle/6.1/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-simple-dictionary-jsp/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-simple-dictionary-jsp/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-simple-dictionary-jsp/.gradle/6.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-simple-dictionary-jsp/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-simple-dictionary-jsp/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-simple-dictionary-jsp/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-simple-dictionary-jsp/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-simple-dictionary-jsp/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-simple-dictionary-jsp/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-simple-dictionary-jsp/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-simple-dictionary-jsp/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-simple-dictionary-jsp/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-simple-dictionary-jsp/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-simple-dictionary-jsp/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-simple-dictionary-jsp/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-simple-dictionary-jsp/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-simple-dictionary-jsp/build/libs/simple-dictionary-jsp-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-simple-dictionary-jsp/build/tmp/war/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-simple-dictionary-jsp/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-simple-dictionary-jsp/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-simple-dictionary-jsp/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-simple-dictionary-jsp/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-simple-dictionary-jsp/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-simple-dictionary-jsp/src/main/webapp/dictionary.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/th-simple-dictionary-jsp/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/.gradle/6.1/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/.gradle/6.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/build/libs/customer-management-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/build/tmp/war/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/src/main/java/com/codegym/controller/CustomerServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/src/main/java/com/codegym/model/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/src/main/java/com/codegym/service/CustomerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/src/main/java/com/codegym/service/CustomerServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11/th-customer-management/src/main/webapp/index.jsp" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/mvc/controller/Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam/src/main/java/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam/src/main/java/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy2/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy2/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy2/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy2/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy2/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy2/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy2/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy2/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/build/libs/Module2_AccountName_WBE-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy2/build/libs/Module2_AccountName_WBE-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/WEB-INF/product/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/WEB-INF/product/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/WEB-INF/views/Home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/WEB-INF/views/Home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/WEB-INF/views/layout/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/WEB-INF/views/layout/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/WEB-INF/views/layout/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/WEB-INF/views/layout/navbar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap-grid.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap-reboot.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap-utilities.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap-utilities.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap-utilities.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap-utilities.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap-utilities.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/css/bootstrap.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/jquery-3.6.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/js/bootstrap.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/js/bootstrap.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/js/bootstrap.esm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/js/bootstrap.esm.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy2/src/main/webapp/bootstrap-5.2.1-dist/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.gradle/6.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/build/libs/demo-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/build/libs/demo-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_view/demo/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_view/demo/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_view/demo/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_view/demo/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_view/demo/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_view/demo/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_view/demo/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_view/demo/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_view/demo/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_view/demo/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_view/demo/build/libs/demo-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_view/demo/build/libs/demo-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_view/demo/src/main/webapp/WEB-INF/views/layout/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_view/demo/src/main/webapp/WEB-INF/views/layout/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_view/furamaCaseStudy.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/th-customer-management/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/th-customer-management/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -409,7 +105,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/product" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jwbd-user-manager-develop" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -422,6 +118,8 @@
       <option name="presentableId" value="Default" />
       <updated>1664059095670</updated>
       <workItem from="1664059098350" duration="21000" />
+      <workItem from="1664977119407" duration="29000" />
+      <workItem from="1664977276954" duration="181000" />
     </task>
     <servers />
   </component>
@@ -429,9 +127,9 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1664059117810">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1664977458223">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1664059117810" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1664977458223" />
   </component>
 </project>

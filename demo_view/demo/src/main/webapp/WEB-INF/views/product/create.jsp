@@ -59,27 +59,36 @@
                                         </div>
                                     </div>
 
-                                    <label for="dateRelease">Date Release: <span style="color: red;"> *</span></label>
-                                    <div class="form-group">
-                                        <div class="form-line">
-                                            <input type="date" name="dateRelease" class="form-control" placeholder="Date release" tabindex="4" id="dateRelease" />
-                                        </div>
-                                    </div>
-
                                     <label for="quantity">Quantity: <span style="color: red;"> *</span></label>
                                     <div class="form-group">
                                         <div class="form-line">
-                                            <input type="text" name="quantity" class="form-control" placeholder="Quantity" tabindex="5" id="quantity" />
+                                            <input type="text" name="quantity" class="form-control" placeholder="Quantity" tabindex="4" id="quantity" />
                                         </div>
                                     </div>
+                                    <label for="color">Color: <span style="color: red;"> *</span></label>
                                     <div class="form-group">
                                         <div class="form-line">
-                                            <input type="text" name="quantity" class="form-control" placeholder="Quantity" tabindex="5" id="quantity" />
+                                            <input type="text" name="color" class="form-control" placeholder="color" tabindex="5" id="color" />
                                         </div>
                                     </div>
-                                    <button type="reset" class="btn btn-primary btn-custom" tabindex="6"><i class="fa fa-check" aria-hidden="true"></i> Reset</button>
-                                    <button type="submit" class="btn btn-primary btn-custom" tabindex="7"><i class="fa fa-check" aria-hidden="true"></i> Add</button>
-
+                                    <label for="description">Description: <span style="color: red;"> *</span></label>
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" name="Description" class="form-control" placeholder="Description" tabindex="6" id="description" />
+                                        </div>
+                                    </div>
+<%--                                    <label for="category">Category: <span style="color: red;"> *</span></label>--%>
+<%--                                    <div class="form-group">--%>
+<%--                                        <div class="form-line">--%>
+<%--                                            <select name="category" class="form-control" tabindex="7" id="category">--%>
+<%--                                                <option value="phone">Điện thoại</option>--%>
+<%--                                                <option value="laptop">Laptop</option>--%>
+<%--                                                <option value="ipad">Máy tính bảng</option>--%>
+<%--                                            </select>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+                                    <button type="reset" class="btn btn-primary btn-custom" tabindex="8"><i class="fa fa-check" aria-hidden="true"></i> Reset</button>
+                                    <button type="submit" class="btn btn-primary btn-custom" tabindex="9"><i class="fa fa-check" aria-hidden="true"></i> Add</button>
                                 </form>
                             </div>
                         </div>

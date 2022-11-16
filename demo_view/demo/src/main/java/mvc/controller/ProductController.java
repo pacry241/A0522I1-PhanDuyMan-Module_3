@@ -11,9 +11,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.SQLException;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.List;
 
 @WebServlet(name = "ProductController", urlPatterns = "/product")
@@ -69,20 +66,14 @@ public class ProductController extends HttpServlet {
         String id = request.getParameter("id");
         String name = request.getParameter("name");
         double price = Double.parseDouble(request.getParameter("price"));
-        String dateAsString = request.getParameter("dateRelease");
         int quantity = Integer.parseInt(request.getParameter("quantity"));
-        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
-        Date dateRelease = null;
+        String color = request.getParameter("color");
+        String description = request.getParameter("description");
+        String category = request.getParameter("category");
         String error = null;
-        try {
-            dateRelease = format.parse(dateAsString);
-        } catch (ParseException e) {
-            error = "Date Release sai format";
-        }
-
         if (error == null) {
             try {
-                service.create(new Product(id, name, price, dateRelease, quantity));
+                service.create(new Product(id, name, price, quantity, color,description));
             } catch (Exception e) {
                 error = e.getMessage();
             }

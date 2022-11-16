@@ -3,7 +3,6 @@ package mvc.service.impl;
 import mvc.bean.Product;
 import mvc.repository.ProductRepository;
 import mvc.repository.impl.ProductRepositoryImpl;
-import mvc.repository.impl.ProductRepositoryImplCallable;
 import mvc.repository.impl.ProductRepositoryImplDB;
 import mvc.service.ProductService;
 
@@ -11,7 +10,7 @@ import java.sql.SQLException;
 import java.util.List;
 
 public class ProductServiceImpl implements ProductService {
-    private ProductRepository repository = new ProductRepositoryImplCallable();
+    private ProductRepository repository = new ProductRepositoryImpl();
 
     @Override
     public void create(Product product) throws Exception {

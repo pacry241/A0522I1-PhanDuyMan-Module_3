@@ -23,8 +23,9 @@ public class ProductRepositoryImplDB implements ProductRepository {
             statement.setString(1, product.getId());
             statement.setString(2, product.getName());
             statement.setDouble(3, product.getPrice());
-            statement.setDate(4, new java.sql.Date(product.getDateRelease().getTime()));
-            statement.setInt(5, product.getQuantity());
+            statement.setInt(4,product.getQuantity());
+            statement.setString(5,product.getColor());
+            statement.setString(6, product.getDescription());
             statement.executeUpdate();
         }
     }
@@ -38,11 +39,12 @@ public class ProductRepositoryImplDB implements ProductRepository {
                 Connection connection = ConnectionUtils.getConnection();
                 PreparedStatement statement = connection.prepareStatement(Constants.INSERT_INTO_PRODUCT);
         ) {
-            statement.setString(5, product.getId());
-            statement.setString(1, product.getName());
-            statement.setDouble(2, product.getPrice());
-            statement.setDate(3, new java.sql.Date(product.getDateRelease().getTime()));
-            statement.setInt(4, product.getQuantity());
+            statement.setString(1, product.getId());
+            statement.setString(2, product.getName());
+            statement.setDouble(3, product.getPrice());
+            statement.setInt(4,product.getQuantity());
+            statement.setString(5,product.getColor());
+            statement.setString(6, product.getDescription());
             statement.executeUpdate();
         }
     }
@@ -61,11 +63,12 @@ public class ProductRepositoryImplDB implements ProductRepository {
             statement.setString(1, id);
             ResultSet rs = statement.executeQuery();
             if (rs.next()) {
-                String name = rs.getString("name");
-                Double price = rs.getDouble("price");
-                Date dateRelease = new Date(rs.getDate("date_release").getTime());
+                String name = rs.getString("pr_name");
+                Double price = rs.getDouble("pr_price");
                 int quantity = rs.getInt("quantity");
-                return new Product(id, name, price, dateRelease, quantity);
+                String color = rs.getString("color");
+                String description = rs.getString("description_pr");
+                return new Product(id, name, price, quantity, color,description);
             }
         }
         return null;
@@ -78,12 +81,13 @@ public class ProductRepositoryImplDB implements ProductRepository {
              Statement statement = connection.createStatement();
              ResultSet rs = statement.executeQuery(Constants.SELECT_ALL_FROM_PRODUCT);) {
             while (rs.next()) {
-                String id = rs.getString("id");
-                String name = rs.getString("name");
-                Double price = rs.getDouble("price");
-                Date dateRelease = new Date(rs.getDate("date_release").getTime());
+                String id = rs.getString("pr_id");
+                String name = rs.getString("pr_name");
+                Double price = rs.getDouble("pr_price");
                 int quantity = rs.getInt("quantity");
-                products.add(new Product(id, name, price, dateRelease, quantity));
+                String color = rs.getString("color");
+                String description = rs.getString("description_pr");
+                products.add(new Product(id, name, price, quantity, color,description));
             }
         }
         return products;

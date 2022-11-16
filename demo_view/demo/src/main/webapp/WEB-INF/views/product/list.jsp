@@ -38,8 +38,9 @@
                                     <th>ID</th>
                                     <th>Name</th>
                                     <th>Price</th>
-                                    <th>Date release</th>
                                     <th>Quantity</th>
+                                    <th>Color</th>
+
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -49,8 +50,8 @@
                                             <td>${item.current.id}</td>
                                             <td>${item.current.name}</td>
                                             <td>${item.current.price}</td>
-                                            <td><fmt:formatDate value="${item.current.dateRelease}" pattern="dd/MM/yyyy" /> </td>
                                             <td>${item.current.quantity}</td>
+                                            <td>${item.current.color}</td>
                                         </tr>
                                     </c:forEach>
                                 </tbody>

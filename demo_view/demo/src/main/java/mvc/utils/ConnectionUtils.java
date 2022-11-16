@@ -7,8 +7,8 @@ import java.sql.SQLException;
 public class ConnectionUtils {
     private static String jdbcURL =
             "jdbc:mysql://localhost:3306/demo?useSSL=false";
-    private static String jdbcUsername = "codegym1";
-    private static String jdbcPassword = "123456";
+    private static String jdbcUsername = "root";
+    private static String jdbcPassword = "Phanduyman1";
 
     public static Connection getConnection() throws SQLException, ClassNotFoundException {
         Connection connection = null;

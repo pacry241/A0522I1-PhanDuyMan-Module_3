@@ -10,11 +10,10 @@ public class ProductRepositoryImpl implements ProductRepository {
 
     static {
         map = new HashMap<>();
-        map.put("Pr001", new Product("Pr001", "Laptop Dell", 700d, new Date(), 10));
-        map.put("Pr002", new Product("Pr002", "Laptop Asus", 750d, new Date(), 10));
-        map.put("Pr003", new Product("Pr003", "Laptop Acer", 790d, new Date(), 10));
-        map.put("Pr004", new Product("Pr004", "Laptop Lenovo", 600d, new Date(), 10));
-        map.put("Pr005", new Product("Pr005", "Laptop HP", 550d, new Date(), 10));
+        map.put("phone1",new Product("phone1","Iphone 11",799.0,12,"Black","New"));
+        map.put("phone2",new Product("phone2","Iphone 11 Pro",1100.0,12,"Black","New"));
+        map.put("phone3",new Product("phone3","Iphone 11",799.0,12,"Black","New"));
+
     }
 
     @Override
