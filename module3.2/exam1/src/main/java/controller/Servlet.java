@@ -72,7 +72,6 @@ public class Servlet extends HttpServlet {
                     showFormSearch(request, response);
                     break;
                 case "detail":
-                case "tiem kiem":
                 case "list":
                 default:
                     showList(request, response);

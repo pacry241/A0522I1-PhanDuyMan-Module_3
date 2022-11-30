@@ -27,7 +27,7 @@
     <div class="row">
         <div class="col-2"></div>
         <div class="col-10">
-            <table border="1" cellpadding="5" class="table table-striped table table-bordered">
+            <table  class="table table-striped table table-bordered">
                 <tr><h2>List of Users</h2></tr>
                 <tr>
                     <th>ID</th>
