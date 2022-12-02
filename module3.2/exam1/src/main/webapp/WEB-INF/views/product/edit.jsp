@@ -23,7 +23,6 @@
 <div align="center">
     <form method="post">
         <table border="1" cellpadding="5">
-
                 <h2>
                     Edit Product
                 </h2>

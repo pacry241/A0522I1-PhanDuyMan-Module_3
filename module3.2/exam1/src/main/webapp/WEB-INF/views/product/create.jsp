@@ -42,7 +42,7 @@
             <tr>
                 <th>Price:</th>
                 <td>
-                    <input type="text" name="price" id="email" size="45"/>
+                    <input type="text" name="price" id="price" size="45"/>
                 </td>
             </tr>
             <tr>

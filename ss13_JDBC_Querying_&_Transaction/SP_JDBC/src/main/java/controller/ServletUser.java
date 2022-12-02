@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 
-@WebServlet(name = "ServletUser", value = "/User")
+@WebServlet(name = "ServletUser", value = "/user")
 public class ServletUser extends HttpServlet {
     private static final long serialVersionUID = 1L;
     private UserService userService = new UserServiceImpl();

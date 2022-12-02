@@ -41,6 +41,7 @@ public class Servlet extends HttpServlet {
             case "search":
                 searchId(request,response);
                 break;
+            default:
         }
         }catch (SQLException ex) {
             throw new ServletException(ex);
@@ -109,8 +110,7 @@ public class Servlet extends HttpServlet {
 
     }
 
-    private void showNewForm(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
+    private void showNewForm(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         showCategory(request,response);
         RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/views/product/create.jsp");
         dispatcher.forward(request, response);
@@ -125,6 +125,7 @@ public class Servlet extends HttpServlet {
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
+        showCategory(request,response);
         request.setAttribute("List",productList);
         request.getRequestDispatcher("WEB-INF/views/product/list.jsp").forward(request,response);
     }
@@ -153,8 +154,7 @@ public class Servlet extends HttpServlet {
         request.getRequestDispatcher("WEB-INF/views/product/list.jsp").forward(request,response);
     }
 
-    private void showFormSearch(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
+    private void showFormSearch(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         RequestDispatcher dispatcher = request.getRequestDispatcher("WEB-INF/views/product/search.jsp");
         dispatcher.forward(request, response);
     }
@@ -178,8 +178,7 @@ public class Servlet extends HttpServlet {
         dispatcher.forward(request, response);
     }
 
-    private void updateProduct(HttpServletRequest request, HttpServletResponse response)
-            throws Exception {
+    private void updateProduct(HttpServletRequest request, HttpServletResponse response) throws Exception {
         int id = Integer.parseInt(request.getParameter("id"));
         String name = request.getParameter("name");
         double price = Double.parseDouble(request.getParameter("price"));
@@ -190,8 +189,9 @@ public class Servlet extends HttpServlet {
 
         Product product = new Product(id,name,price,quantity,color,description,categoryId);
         service.update(product);
-        RequestDispatcher dispatcher = request.getRequestDispatcher("WEB-INF/views/product/edit.jsp");
-        dispatcher.forward(request, response);
+        response.sendRedirect("/product?action=list");
+//        RequestDispatcher dispatcher = request.getRequestDispatcher("WEB-INF/views/product/list.jsp");
+//        dispatcher.forward(request, response);
     }
 }
 
