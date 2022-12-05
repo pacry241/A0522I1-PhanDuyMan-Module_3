@@ -142,16 +142,17 @@ public class Servlet extends HttpServlet {
     }
     private void deleteProduct(HttpServletRequest request, HttpServletResponse response)
             throws SQLException, IOException, ServletException, ClassNotFoundException {
-        int id = Integer.parseInt(request.getParameter("id"));
+        int id = Integer.parseInt(request.getParameter("idDelete"));
         try {
             service.deleteById(id);
         } catch (Exception e) {
             e.printStackTrace();
         }
 
-        List<Product> productList = service.findAll();
-        request.setAttribute("List",productList);
-        request.getRequestDispatcher("WEB-INF/views/product/list.jsp").forward(request,response);
+        response.sendRedirect("/product");
+//        List<Product> productList = service.findAll();
+//        request.setAttribute("List",productList);
+//        request.getRequestDispatcher("WEB-INF/views/product/list.jsp").forward(request,response);
     }
 
     private void showFormSearch(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

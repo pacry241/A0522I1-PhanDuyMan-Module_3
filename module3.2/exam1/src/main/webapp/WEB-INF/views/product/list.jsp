@@ -21,9 +21,9 @@
     </h2>
 
 <div class="container-fluid" align="center">
-
+    <div class="row">
     <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <button type="button" class="btn btn-primary col-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
         Add New Product
     </button>
 
@@ -93,11 +93,9 @@
                                 </td>
                             </tr>
                             <tr>
-
                             </tr>
                         </table>
                         <input type="hidden" name="action" value="create">
-
                     </form>
                 </div>
                 <div class="modal-footer">
@@ -108,14 +106,18 @@
         </div>
     </div>
 
-    <h2>
+    <h2 class="col-9">
         <a href="/product?action=search">Search</a>
     </h2>
-    <div class="row">
-        <div class="col-2"></div>
+
+        <div class="col-2 " style="border-right: 3px solid " >
+            <h3>
+                Thông Tin
+            </h3>
+        </div>
         <div class="col-10">
             <table  class="table table-striped table table-bordered">
-                <tr><h2>List of Users</h2></tr>
+                <tr><h2>List of Product</h2></tr>
                 <tr>
                     <th>ID</th>
                     <th>Name</th>
@@ -136,109 +138,13 @@
                         <td><c:out value="${product.description}"/></td>
                         <td><c:out value="${product.category}"/></td>
                         <td>
-<%--                            <!-- Button to Open the Modal -->--%>
-<%--                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal${product.id}">--%>
-<%--                                Edit--%>
-<%--                            </button>--%>
-
-<%--                            <!-- The Modal -->--%>
-<%--                            <div class="modal" id="myModal${product.id}">--%>
-<%--                                <div class="modal-dialog">--%>
-<%--                                    <div class="modal-content">--%>
-
-<%--                                        <!-- Modal Header -->--%>
-<%--                                        <div class="modal-header">--%>
-<%--                                            <h4 class="modal-title">Modal Heading</h4>--%>
-<%--                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>--%>
-<%--                                        </div>--%>
-
-<%--                                        <form id="formEdit${product.id}" method="post" action="/product">--%>
-<%--                                        <!-- Modal body -->--%>
-<%--                                            <div class="modal-body">--%>
-
-<%--                                                <table cellpadding="5">--%>
-<%--                                                    <h2>--%>
-<%--                                                        Edit Product--%>
-<%--                                                    </h2>--%>
-<%--                                                    <c:if test="${product != null}">--%>
-<%--                                                        <input type="hidden" name="id" value="<c:out value='${product.id}' />"/>--%>
-<%--                                                    </c:if>--%>
-<%--                                                    <tr>--%>
-<%--                                                        <th>Product Name:</th>--%>
-<%--                                                        <td>--%>
-<%--                                                            <input type="text" name="name" size="45"--%>
-<%--                                                                   value="<c:out value='${product.nameProduct}' />"--%>
-<%--                                                            />--%>
-<%--                                                        </td>--%>
-<%--                                                    </tr>--%>
-<%--                                                    <tr>--%>
-<%--                                                        <th>Product Price:</th>--%>
-<%--                                                        <td>--%>
-<%--                                                            <input type="text" name="price" size="45"--%>
-<%--                                                                   value="<c:out value='${product.price}' />"--%>
-<%--                                                            />--%>
-<%--                                                        </td>--%>
-<%--                                                    </tr>--%>
-<%--                                                    <tr>--%>
-<%--                                                        <th>Quantity:</th>--%>
-<%--                                                        <td>--%>
-<%--                                                            <input type="text" name="quantity" size="15"--%>
-<%--                                                                   value="<c:out value='${product.quantity}' />"--%>
-<%--                                                            />--%>
-<%--                                                        </td>--%>
-<%--                                                    </tr>--%>
-<%--                                                    <tr>--%>
-<%--                                                        <th>Color:</th>--%>
-<%--                                                        <td>--%>
-<%--                                                            <input type="text" name="color" size="15" value=" <c:out--%>
-<%--                            value='${product.color}' />" />--%>
-<%--                                                        </td>--%>
-<%--                                                    </tr>--%>
-<%--                                                    <tr>--%>
-<%--                                                        <th>Description:</th>--%>
-<%--                                                        <td>--%>
-<%--                                                            <input type="text" name="description" size="15" value=" <c:out--%>
-<%--                    value='${product.description}'/>  "--%>
-<%--                                                            />--%>
-<%--                                                        </td>--%>
-<%--                                                    </tr>--%>
-<%--                                                    <tr>--%>
-<%--                                                        <th>Category:</th>--%>
-<%--                                                        <td>--%>
-<%--                                                            <select name="category" id="category" >--%>
-<%--                                                                <c:forEach var="category" items="${categoryList}" varStatus="count">--%>
-<%--                                                                    <option value="${category.id}">${category.name}</option>--%>
-<%--                                                                </c:forEach>--%>
-<%--                                                            </select>--%>
-<%--                                                        </td>--%>
-<%--                                                    </tr>--%>
-<%--                                                    <tr>--%>
-<%--                                                        <td colspan="2" align="center">--%>
-<%--                                                            <input type="submit" value="Save"/>--%>
-<%--                                                        </td>--%>
-<%--                                                    </tr>--%>
-<%--                                                    <input type="hidden" name="action" value="edit">--%>
-<%--                                                    <input type="hidden" name="id" value="${product.id}">--%>
-<%--                                                </table>--%>
-
-<%--                                            </div>--%>
-
-<%--                                            <!-- Modal footer -->--%>
-<%--                                            <div class="modal-footer">--%>
-<%--                                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>--%>
-<%--                                                <button type="submit" class="btn btn-primary">Update</button>--%>
-<%--                                            </div>--%>
-<%--                                        </form>--%>
-
-<%--                                    </div>--%>
-<%--                                </div>--%>
-<%--                            </div>--%>
-
-<%--&lt;%&ndash;                            <a class="btn btn-primary" href="/product?action=edit&id=${product.id}" role="button">Edit</a>&ndash;%&gt;--%>
-                            <a class="btn btn-danger" href="/product?action=delete&id=${product.id}" role="button">Delete</a>
+<%--                            <a class="btn btn-primary" href="/product?action=edit&id=${product.id}" role="button">Edit</a>--%>
                             <!-- Button trigger modal -->
-                            <button type="button" onclick="editModal(${product.id}, ${product.nameProduct},${product.price},${product.quantity},${product.color},${product.description})" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                                Edit
+                            <button type="button" class="btn btn-success " data-bs-toggle="modal" data-bs-target="#editProduct" data-bs-whatever="@mDo" idEdit=${product.id} nameEdit="${product.nameProduct}" price=${product.price} quantity=${product.quantity} color=${product.color} description=${product.description}>Edit </button>
+<%--                            <a class="btn btn-danger" href="/product?action=delete&id=${product.id}" role="button">Delete</a>--%>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteProduct" idDelete =${product.id}>
+                                Delete
                             </button>
                         </td>
                     </tr>
@@ -247,23 +153,40 @@
             </div>
         </div>
 
-    <!-- Modal -->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <!-- Modal Delete-->
+    <div class="modal fade" id="deleteProduct" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                    <h5 class="modal-title" id="exampleDeleteModalLabel">Delete Product</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form action="/product" method="post">
+                    <form method="get" action="/product">
+                        <h3>Bạn có chắc chắn xóa sản phẩm này không? </h3>
+                        <input type="hidden" name="idDelete" id="idDelete">
+                        <input type="hidden" name="action" value="delete">
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Delete</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Modal Edit -->
+    <div class="modal fade" id="editProduct" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleEditModalLabel">Edit Product</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form method="post" action="/product">
                         <table cellpadding="5">
-                            <tr>
-                                <th>Product ID:</th>
-                                <td>
-                                    <input type="text" name="id" id="idEdit" size="45"/>
-                                </td>
-                            </tr>
                             <tr>
                                 <th>Product Name:</th>
                                 <td>
@@ -271,7 +194,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th>Price:</th>
+                                <th>Product Price:</th>
                                 <td>
                                     <input type="text" name="price" id="priceEdit" size="45"/>
                                 </td>
@@ -279,30 +202,38 @@
                             <tr>
                                 <th>Quantity:</th>
                                 <td>
-                                    <input type="text" name="quantity" id="quantityEdit" size="45"/>
+                                    <input type="text" name="quantity" id="quantityEdit" size="15"/>
                                 </td>
                             </tr>
                             <tr>
                                 <th>Color:</th>
                                 <td>
-                                    <input type="text" name="color" id="colorEdit" size="45"/>
+                                    <input type="text" name="color" id="colorEdit" size="15"/>
                                 </td>
                             </tr>
                             <tr>
-                                <th>Description :</th>
+                                <th>Description:</th>
                                 <td>
-                                    <input type="text" name="description" id="descriptionEdit" size="45"/>
+                                    <input type="text" name="description" id="descriptionEdit" size="15"/>
                                 </td>
                             </tr>
                             <tr>
-                                <%--                                <td colspan="2" align="center">--%>
-                                <%--                                    <input type="submit" value="Save"/>--%>
-                                <%--                                </td>--%>
+                                <th>Category:</th>
+                                <td>
+                                    <select name="category" id="category" >
+                                        <c:forEach var="category" items="${categoryList}" varStatus="count">
+                                            <option value="${category.id}">${category.name}</option>
+                                        </c:forEach>
+                                    </select>
+                                </td>
                             </tr>
                         </table>
+                        <input type="hidden" name="action" value="edit">
+                        <input type="hidden" name="id" id="idSend">
+
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="submit" class="btn btn-primary">Save</button>
+                            <button type="submit" class="btn btn-primary">Update</button>
                         </div>
                     </form>
                 </div>
@@ -310,8 +241,42 @@
         </div>
     </div>
 
-
     <script>
+        var exampleModal = document.getElementById('editProduct')
+        exampleModal.addEventListener('show.bs.modal', function (event) {
+            // Button that triggered the modal
+            var button = event.relatedTarget
+            // Extract info from data-bs-* attributes
+            var recipient = button.getAttribute('data-bs-whatever')
+            // If necessary, you could initiate an AJAX request here
+            // and then do the updating in a callback.
+            //
+            // Update the modal's content.
+            var modalTitle = exampleModal.querySelector('.modal-title')
+            let idSend = exampleModal.querySelector('#idSend')
+            var nameEdit = exampleModal.querySelector('#nameEdit')
+            let priceEdit = exampleModal.querySelector('#priceEdit')
+            let quantity = exampleModal.querySelector('#quantityEdit')
+            let color = exampleModal.querySelector('#colorEdit')
+            let description = exampleModal.querySelector('#descriptionEdit')
+
+            idSend.value = button.getAttribute('idEdit')
+            nameEdit.value = button.getAttribute('nameEdit')
+            priceEdit.value = button.getAttribute('price')
+            quantity.value = button.getAttribute('quantity')
+            color.value = button.getAttribute('color')
+            description.value = button.getAttribute('description')
+            modalTitle.textContent = 'Edit Product ' + nameEdit.value
+        })
+
+        var deleteProduct = document.getElementById('deleteProduct')
+        deleteProduct.addEventListener('show.bs.modal', function (event2){
+            var buttonDelete = event2.relatedTarget
+            var id = deleteProduct.querySelector('#idDelete')
+
+            idDelete.value = buttonDelete.getAttribute('idDelete')
+        })
+
         function editModal(id,name,price,quantity,color,description){
             document.getElementById('idEdit').value = id;
             document.getElementById('nameEdit').value = name;

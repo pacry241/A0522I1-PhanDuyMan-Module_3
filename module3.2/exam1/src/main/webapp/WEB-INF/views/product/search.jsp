@@ -20,9 +20,9 @@
 <%--</form>--%>
 
 <div class="container">
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Open modal for @mdo</button>
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Open modal for @fat</button>
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Open modal for @getbootstrap</button>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" idEdit=11>Open modal for @mdo</button>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat" idEdit=12>Open modal for @fat</button>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap" idEdit=13>Open modal for @getbootstrap</button>
 
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -36,6 +36,7 @@
                         <div class="mb-3">
                             <label for="recipient-name" class="col-form-label">Recipient:</label>
                             <input type="text" class="form-control" id="recipient-name">
+                            <input type="text" class="form-control" id="edit">
                         </div>
                         <div class="mb-3">
                             <label for="message-text" class="col-form-label">Message:</label>
@@ -58,15 +59,18 @@
             var button = event.relatedTarget
             // Extract info from data-bs-* attributes
             var recipient = button.getAttribute('data-bs-whatever')
+            var count = button.getAttribute('idEdit')
             // If necessary, you could initiate an AJAX request here
             // and then do the updating in a callback.
             //
             // Update the modal's content.
             var modalTitle = exampleModal.querySelector('.modal-title')
             var modalBodyInput = exampleModal.querySelector('.modal-body input')
+            var modalBodyEdit = exampleModal.querySelector('#edit')
 
-            modalTitle.textContent = 'New message to ' + recipient
-            modalBodyInput.value = recipient
+            modalTitle.textContent = 'New message to ' + count
+            modalBodyInput.value = count
+            modalBodyEdit.value = recipient
         })
     </script>
 
