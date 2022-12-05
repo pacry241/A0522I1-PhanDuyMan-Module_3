@@ -140,8 +140,7 @@ public class Servlet extends HttpServlet {
         }
         request.setAttribute("categoryList",categoryList);
     }
-    private void deleteProduct(HttpServletRequest request, HttpServletResponse response)
-            throws SQLException, IOException, ServletException, ClassNotFoundException {
+    private void deleteProduct(HttpServletRequest request, HttpServletResponse response) throws SQLException, IOException, ServletException, ClassNotFoundException {
         int id = Integer.parseInt(request.getParameter("idDelete"));
         try {
             service.deleteById(id);
