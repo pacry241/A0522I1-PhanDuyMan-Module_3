@@ -27,7 +27,7 @@
         Add New Product
     </button>
 
-    <!-- Modal -->
+    <!-- Modal create -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -78,7 +78,7 @@
                                 <th>Category:</th>
                                 <td>
                                     <div class="input-group mb-3">
-                                        <label class="input-group-text" for="inputGroupSelect01">Options</label>
+                                        <label class="input-group-text" for="inputGroupSelect01">Lựa chọn</label>
                                         <select class="form-select" id="inputGroupSelect01" name="category">
                                             <c:forEach var="category" items="${categoryList}" varStatus="count">
                                                 <option value="${category.id}">${category.name}</option>
@@ -140,7 +140,7 @@
                         <td>
 <%--                            <a class="btn btn-primary" href="/product?action=edit&id=${product.id}" role="button">Edit</a>--%>
                             <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-success " data-bs-toggle="modal" data-bs-target="#editProduct" data-bs-whatever="@mDo" idEdit=${product.id} nameEdit="${product.nameProduct}" price=${product.price} quantity=${product.quantity} color=${product.color} description=${product.description}>Edit </button>
+                            <button type="button" class="btn btn-success " data-bs-toggle="modal" data-bs-target="#editProduct" data-bs-whatever="@mDo" idEdit=${product.id} nameEdit="${product.nameProduct}" price=${product.price} quantity=${product.quantity} color=${product.color} description="${product.description}" catogory=${product.category}>Edit </button>
 <%--                            <a class="btn btn-danger" href="/product?action=delete&id=${product.id}" role="button">Delete</a>--%>
                             <!-- Button trigger modal -->
                             <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteProduct" idDelete =${product.id}>
@@ -259,6 +259,7 @@
             let quantity = exampleModal.querySelector('#quantityEdit')
             let color = exampleModal.querySelector('#colorEdit')
             let description = exampleModal.querySelector('#descriptionEdit')
+            let catogory = exampleModal.querySelector('#category')
 
             idSend.value = button.getAttribute('idEdit')
             nameEdit.value = button.getAttribute('nameEdit')
@@ -267,6 +268,7 @@
             color.value = button.getAttribute('color')
             description.value = button.getAttribute('description')
             modalTitle.textContent = 'Edit Product ' + nameEdit.value
+            // catogory.value = button.getAttribute('catogory')
         })
 
         var deleteProduct = document.getElementById('deleteProduct')

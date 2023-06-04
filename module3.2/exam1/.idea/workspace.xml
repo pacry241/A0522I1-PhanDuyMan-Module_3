@@ -5,16 +5,72 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54604b62-5edc-4b97-823f-d91b7b6cde2b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../exam1.rar" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/.idea/demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demoModule3/boostrap/.idea/boostrap.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demoModule3/boostrap/demo2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demoModule3/demoJstl/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demoModule3/demoJstl/DemoJstl.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demoModule3/demomvc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demoModule3/firstapp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demoModule3/firstapp/firstapp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demoModule3/ss11/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demoModule3/ss11/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demoModule3/ss11/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demoModule3/ss11/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demoModule3/ss11/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demoModule3/ss11/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiemTra/baiKiemTra/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiemTra/baiKiemTra/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiemTra/baiKiemTra/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiemTra/baiKiemTra/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiemTra/baiKiemTra/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiemTra/baiKiemTra/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiemTra/baiKiemTra/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiemTra/baiKiemTra/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiemTra/baiKiemTra/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiemTra/baiKiemTra/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiemTra/baiKiemTra/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiemTra/baiKiemTra/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiemTra/baiKiemTra/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiemTra/baiKiemTra/src/main/java/bean/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiemTra/baiKiemTra/src/main/java/controller/ServletCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiemTra/baiKiemTra/src/main/java/repository/CRUDRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiemTra/baiKiemTra/src/main/java/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiemTra/baiKiemTra/src/main/java/repository/Impl/CustomerRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiemTra/baiKiemTra/src/main/java/service/CRUDService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiemTra/baiKiemTra/src/main/java/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiemTra/baiKiemTra/src/main/java/service/Impl/CRUDServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiemTra/baiKiemTra/src/main/java/utils/ConnectionDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiemTra/baiKiemTra/src/main/java/utils/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiemTra/baiKiemTra/src/main/webapp/WEB-INF/views/customer/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiemTra/baiKiemTra/src/main/webapp/WEB-INF/views/layout/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiemTra/baiKiemTra/src/main/webapp/WEB-INF/views/layout/navbar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiemTra/baiKiemTra/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiemTra/baiKiemTra/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bt/exam1/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../bt/exam1/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bt/exam1/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../bt/exam1/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bt/exam1/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../bt/exam1/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bt/exam1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bt/exam1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/controller/Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/controller/Servlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/exam1-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exam1-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Servlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/search.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layout/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layout/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/list.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,8 +131,10 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Codegym/Module3/Module_3/module3.2/exam1&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Codegym/Module3/Module_3/demoModule3/demo&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -87,8 +145,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.651">
+    <configuration name="ConnectionUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utils.ConnectionUtils" />
+      <module name="exam1.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 9.0.651" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.651" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Gradle : org.example : exam1-1.0-SNAPSHOT.war">
@@ -175,6 +247,15 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ConnectionUtils" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.651" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ConnectionUtils" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -198,7 +279,23 @@
       <workItem from="1670014360370" duration="524000" />
       <workItem from="1670075726257" duration="651000" />
       <workItem from="1670079714923" duration="901000" />
-      <workItem from="1670237540032" duration="11353000" />
+      <workItem from="1670237540032" duration="12379000" />
+      <workItem from="1670410325522" duration="7521000" />
+      <workItem from="1670506609465" duration="2097000" />
+      <workItem from="1670576416720" duration="1293000" />
+      <workItem from="1670578039598" duration="1004000" />
+      <workItem from="1670583524374" duration="7120000" />
+      <workItem from="1670758121368" duration="56000" />
+      <workItem from="1670767241959" duration="835000" />
+      <workItem from="1670769749752" duration="36000" />
+      <workItem from="1670822060630" duration="241000" />
+      <workItem from="1670842624157" duration="3278000" />
+      <workItem from="1670847399580" duration="2181000" />
+      <workItem from="1672056221900" duration="2854000" />
+      <workItem from="1672062246556" duration="15000" />
+      <workItem from="1672062653180" duration="45000" />
+      <workItem from="1677065004879" duration="108000" />
+      <workItem from="1677497694558" duration="464000" />
     </task>
     <servers />
   </component>
@@ -221,6 +318,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/Servlet.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
